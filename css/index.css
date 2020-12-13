@@ -62,6 +62,54 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 300px;
+    width: 300px;    
+}
+
+.box1{
+    background-color: teal;
+}
+
+.box2{
+    background-color: gold;
+}
+
+.box3{
+    background-color: cadetblue;
+}
+
+.box4{
+    background-color: coral;
+}
+
+.box5{
+    background-color: crimson;
+}
+
+.box6{
+    background-color: forestgreen;
+}
+
+.box7{
+    background-color: darkorchid;
+}
+
+.box8{
+    background-color: hotpink;
+}
+
+.box9{
+    background-color: indigo;
+}
+
+.box10{
+    background-color: dodgerblue;
+}
+
 p {
     line-height: 1.4;
 }
@@ -143,4 +191,24 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    border: 1px solid black;
+    width: 600px;
+    height: 20px;
+    padding: 20px 80px 20px 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20ox;
+    width: 20px;
+    height: 15px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
 }
